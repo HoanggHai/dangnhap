@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(41, 43, 46);
+    display: flex;
+    align-items: center;
+}
+.font {
+    transition-duration: 0.3s;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    color: rgb(0, 0, 0);
+    margin: auto;
+}
+.box1{
+    width: 70%;
+    height: 80%;
+    background-color: rgba(107, 138, 163, 0.726);     
+    text-align: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border: 4px solid #181818;
+}
+.box2{
+    width: 80%;
+    height: 80%;
+    background-color: aliceblue;
+    text-align: center;
+    border: 2px solid #1b1b1b;
+}
+.box3{
+    margin: auto;
+    width: 60%;
+    height: 30%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: rgb(65, 98, 104);
+    align-items: center;
+    border: 3px solid #1d1d1d;
+    display: flex;
+    flex-wrap: wrap;
+}
+input {
+    border: 3px solid rgb(0, 0, 0);
+    text-align: center;
+    width: 60%;
+    height:25%;
+    margin: auto;
+    font-size: 30px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    
+}
+.nut{
+    width: 20%;
+    height: 12%;
+    background-color: teal;
+    border: 4px solid #1d1d1d;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin: auto;
+    margin-top: 5%;
+}
+.aa{
+    font-size: 35px;
+    text-decoration: none;
+    transition-duration: 0.3s;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    color: rgb(49, 47, 47);
+    margin: auto;
+}
+.aa:hover{
+    font-size: 40px;
+    text-decoration: none;
+    transition-duration: 0.3s;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    color: rgb(0, 0, 0);
+    margin: auto;
+}
